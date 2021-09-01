@@ -76,4 +76,14 @@ Here we can see that our state file is working fine in remote end s3  and locall
 -rw-r--r-- 1 root root 3809 Sep  1 14:53 terraform.tfstate.backup
 [root@ip-172-31-8-241 awsproject]#
 ```
+# Conclusion
 
+Here in this project terraform writes the state data to a remote data store and it  make more easier to modify or    manage the infrastructure
+
+
+
+⚙️ Connect with Me
+ 
+  <a href="https://www.linkedin.com/in/sruthy-manohar-9a9b54150/">
+     <p> <img align="left" alt="Abhishek's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" /> </p>
+   </a> 
