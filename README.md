@@ -29,7 +29,7 @@ terraform {
 }
 ```
 
-Now Backend initialization required, The "backend" is the interface that Terraform uses to store state, perform operations, etc.  The Terraform configuration that we are using is  a custom configuration for the Terraform backend. Changes to backend configurations require reinitialization. This allows terraform to set up the new configuration, copy existing state, etc. So Please run "terraform init" with either the "-reconfigure" or "-migrate-state" flags to
+Now Backend initialization required, The "backend" is the interface that Terraform uses to store state, perform operations, etc.  The Terraform configuration that we are using is  a custom configuration for the Terraform backend. Changes to backend configurations require reinitialization. This allows terraform to set up the new configuration, copy existing state, etc. So  we have to run "terraform init" with either the "-reconfigure" or "-migrate-state" flags to
 use the current configuration.
 
 Output: 
