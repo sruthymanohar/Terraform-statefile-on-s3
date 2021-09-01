@@ -65,7 +65,7 @@ terraform apply
 ```
 So lets first checkout our s3 bucket -
 
-![alt text](https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture1.PNG?raw=true)
+![alt text](https://github.com/sruthymanohar/Terraform-statefile-on-s3/blob/main/Capture1.PNG)
 
 Here we can see that our state file is working fine in remote end s3  and locally you can see that it becomes an empty file.
 
