@@ -4,7 +4,7 @@
 
 When you  are building an infrastrucre using Iac tool terraform, a state file  is generated locally in the directory and it contains all the details about your infrastrure  that means it act as a database for your infrastrucre.This state is stored by default in a local file named "terraform.tfstate", but it can also be stored remotely, which works better in a team environment. 
 
-Here in this project I have uploaded the tfstate file to  remote backup s3 bucket.
+Here in this project I have uploaded the tfstate file to  remote backup s3 bucket So we can easily manage state file.
 
 ## Prerequisites.
 - S3 storage
