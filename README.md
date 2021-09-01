@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 
-When you  are building an infrastrucre using Iac tool terraform, a state file  is generated locally in the directory and it contains all the details about your infrastrure  that means it act as a database for your infrastrucre.This state is stored by default in a local file named "terraform.tfstate", but it can also be stored remotely, which works better in a team environment. 
+When you  are building an infrastrucre using Iac tool terraform, a state file  is generated locally in the directory and it contains all the details about your infrastrure  that means it act as a database for your infrastrucre. This state is stored by default in a local file named "terraform.tfstate", but it can also be stored remotely, which works better in a team environment. 
 
 Here in this project I have uploaded the tfstate file to  remote backup s3 bucket So we can easily manage state file.
 
@@ -65,7 +65,7 @@ terraform apply
 ```
 So lets first checkout our s3 bucket -
 
-
+![alt text](https://github.com/sruthymanohar/s3bucket-objects-image-website/blob/main/Capture1.PNG?raw=true)
 
 Here we can see that our state file is working fine in remote end s3  and locally you can see that it becomes an empty file.
 
