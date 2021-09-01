@@ -64,3 +64,5 @@ Lets apply the above architecture to the AWS.
 terraform apply
 ```
 So lets first checkout our s3 bucket -
+
+
