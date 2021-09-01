@@ -66,3 +66,14 @@ terraform apply
 So lets first checkout our s3 bucket -
 
 
+
+Here we can see that our state file is working fine in remote end s3  and locally you can see that it becomes an empty file.
+
+```sh 
+-rw-r--r-- 1 root root  199 Sep  1 17:32 main.tf
+-rw-r--r-- 1 root root  143 Sep  1 13:36 provider.tf
+-rw-r--r-- 1 root root    0 Sep  1 14:53 terraform.tfstate
+-rw-r--r-- 1 root root 3809 Sep  1 14:53 terraform.tfstate.backup
+[root@ip-172-31-8-241 awsproject]#
+```
+
