@@ -16,7 +16,7 @@ Here in this project I have uploaded the tfstate file to  remote backup s3 bucke
 ```sh
 To setup the tstate file in remote end initially we need an IAM user details wth s3 full access and s3 bucket
 ```
-Here I have already created a s3 bucket  "remotetfstate" for my project and I'm setting the backend to s3
+Here I  already created a s3 bucket  "remotetfstate" for my project and I'm setting the backend to s3
 
 ```sh 
 terraform {
