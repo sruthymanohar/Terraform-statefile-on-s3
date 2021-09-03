@@ -24,7 +24,7 @@ terraform {
         bucket      = "remotetfstate"
         key         = "terraform/terraform.tfstate"
         region      = "ap-south-1"
-        encrypt     = false
+        encrypt     = true
         }
 }
 ```
